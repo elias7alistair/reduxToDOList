@@ -50,6 +50,15 @@ display: inline;
   margin-right: 50px;
 }
 
+button,input{
+  outline: none;
+}
+
+img:hover{
+  transform: scale(1.15);
+  transition: opacity 0.5s, transform 0.2s;
+}
+
 
 .card div{
   margin: 0px;
@@ -78,9 +87,11 @@ input {
   border-radius: 5px 0px 0px 5px;
   font-size: 15px;
   border-style: none;
-  background-color: #202125;
+  background-color: #202125d5;
   color: #cdcdcd;
+  
 }
+
 
 .card button {
   background-color: transparent;
@@ -92,3 +103,30 @@ input {
   width: 100%;
   padding: 10px;
 }
+
+.particles {
+  position: fixed;
+  z-index: -1;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+/* #particles-js{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: #000;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.body-particles{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+} */

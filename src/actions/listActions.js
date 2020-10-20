@@ -26,3 +26,10 @@ export const taskComplete = (id)=>{
         payload: id
     }
 }
+
+// export const filterTask = (id)=>{
+//     return {
+//         type: 'FILTER_TASK',
+//         payload: id
+//     }
+//}

@@ -19,7 +19,7 @@ class AddTask extends Component {
         
         return ( 
             <div className="addTask">
-                <h1>Add Task</h1>
+                <h1>FynTune ToDoS</h1>
                 <input type="text" value={this.state.taskName} onChange={this.handleChange}/>
                 <button onClick={this.handleAddTask}>Add</button>
             </div>
