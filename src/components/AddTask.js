@@ -10,7 +10,8 @@ class AddTask extends Component {
     }
 
     handleAddTask = () =>{
-        if(this.state.taskName.length > 0){
+        const regexCheck= /^[^!-\\/:-@\\[-`{-~]+$/;
+        if(this.state.taskName.length > 0 && regexCheck.test(this.state.taskName)){
         this.props.addTask(this.state.taskName)
         this.setState({taskName:""})}
     }
@@ -20,7 +21,7 @@ class AddTask extends Component {
         return ( 
             <div className="addTask">
                 <h1>FynTune ToDoS</h1>
-                <input type="text" value={this.state.taskName} onChange={this.handleChange}/>
+                <input type="text"  value={this.state.taskName} onChange={this.handleChange}/>
                 <button onClick={this.handleAddTask}>Add</button>
             </div>
          );

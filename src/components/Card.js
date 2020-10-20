@@ -84,7 +84,7 @@ class Card extends Component {
               src={taskDone}
               alt="task complete"
               width="24px"
-              title="Delete"
+              title="task Completed"
             />
           </button>
         </div>
