@@ -113,6 +113,10 @@ input {
   height: 100%;
 }
 
+.filterList button {
+ background-color: #dedbeb93;
+}
+
 /* #particles-js{
   width: 100%;
   height: 100%;

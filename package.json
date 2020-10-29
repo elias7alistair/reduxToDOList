@@ -2,7 +2,7 @@
   "name": "reduxtodolist",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://elias7alistair.github.io/reduxToDOList",
+  "homepage": "/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
